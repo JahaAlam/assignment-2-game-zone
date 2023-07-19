@@ -243,7 +243,7 @@ span {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .online-game {
@@ -258,7 +258,44 @@ span {
     width: 342px;
     height: 500px;
     border-radius: 16px;
-    background: lightgray 50% / cover no-repeat;
+}
+
+.container {
+    width: 342px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.overlay {
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: black;
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.online-game-card .container:hover .overlay {
+    opacity: 0.8;
+    border-radius: 16px;
+
 }
 
 .card-details {
@@ -267,7 +304,7 @@ span {
     font-weight: 500;
     line-height: 30px;
     text-align: left;
-    padding: 20px 0px;
+   padding-top: 20px;
 }
 
 /*instant play style*/
