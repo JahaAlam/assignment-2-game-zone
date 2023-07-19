@@ -327,8 +327,8 @@ span {
 
 .instant-play-photo .little-player {
     position: absolute;
-    top: 300px;
-    right: 300px;
+    top: 60%;
+    right: 60%;
     width: 40%;
 }
 
@@ -379,15 +379,66 @@ span {
     font-weight: 600;
 
 }
-.pages-container button:hover{
+
+.pages-container button:hover {
     border-radius: 50px;
     border: 1px solid red;
     color: #FF42A5;
 }
 
+/*footer*/
+footer {
+    background-color: #0B0223;
+    height: 700px;
+}
 
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 100px;
+}
 
+.footer-nav ul {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 
+}
+
+.footer-nav ul li a {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+.media {
+    padding: 60px;
+
+}
+
+.footer-title {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.footer-logo .logo-text {
+    color: white;
+
+}
+
+.footer-container {}
+
+.footer-container .logo {}
+
+.footer-container .logo span {}
 
 
 
